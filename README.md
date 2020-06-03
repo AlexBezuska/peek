@@ -23,6 +23,7 @@ Simple screen recorder with an easy to use interface
   - [Snappy](#snappy)
   - [AppImage](#appimage)
   - [Ubuntu](#ubuntu)
+  - [ElementaryOS](#elementaryos)
   - [Debian](#debian)
   - [Fedora](#fedora)
   - [Solus](#solus)
@@ -133,6 +134,18 @@ for more information on how to use AppImages and integrate them with your system
 You can install the latest versions of Peek from the
 [Ubuntu PPA](https://code.launchpad.net/~peek-developers/+archive/ubuntu/stable).
 
+    sudo add-apt-repository ppa:peek-developers/stable
+    sudo apt update
+    sudo apt install peek
+
+If you want to use the latest development version there is also a
+[PPA with daily builds](https://code.launchpad.net/~peek-developers/+archive/ubuntu/daily)
+available. Use the repository `ppa:peek-developers/daily` in the above commands.
+
+### ElementaryOS
+Adding PPA repositories requires the package `software-properties-common`
+
+    sudo apt install software-properties-common
     sudo add-apt-repository ppa:peek-developers/stable
     sudo apt update
     sudo apt install peek
